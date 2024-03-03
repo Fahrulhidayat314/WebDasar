@@ -28,5 +28,79 @@
 <input type="checkbox" id="id3" value="Boat">
 <label for="id3"> I have a boat</label>
 <p><!-- tulis kesimpulan uji coba disini--></p>
+
+    <hr>
+    <h3>Uji COba 4</h3>
+    <label for="favco">Pilih warna dengan type = "color" :</label>
+    <input type="color" id="favco" name="favco"><br>
+    <label for="b">Pilih tanggal dengan type = "date" : </label>
+    <input type="date" name="tanggal" id="b"><br>
+    <input type="button" onclick="alert('Hello World!')" value="Click Me!"><br>
+    <p>Pada label pertama, kita akan memberikan label yang digunakan user untuk memilih warna.
+        atribut for dengan value favco merupakan nama yang nantinya akan dipanggil di tag input. 
+        pada tag input, kita akan memilih type inputan yang kita inginkan. Disini kita memilih color
+        untuk dapat menginputan jenis warna yang kita inginkan. selanjutnya id dan name kita sesuaikan
+        dengan for yang berada pada label. id dan name sendiri adalah identitas pada label kita.
+    </p>
+    <p>Pada label pertama, kita akan memberikan label yang digunakan user untuk memilih tanggal.
+        atribut for dengan value b merupakan nama yang nantinya akan dipanggil di tag input. 
+        pada tag input, kita akan memilih type inputan yang kita inginkan. Disini kita memilih date
+        untuk dapat menginputan tanggal yang kita inginkan. selanjutnya id dan name kita sesuaikan
+        dengan for yang berada pada label. id dan name sendiri adalah identitas pada label kita.
+    </p>
+    <p>Pada input selanjutnya type yang kita gunakan adalah button dengan nama CLICK ME!. Ketika 
+        button tersebut kita klik, akan muncul pop up pada website kita dengan teks HELLO WORLD!
+    </p><br>
+
+    <hr>
+    <h3>Uji coba 5</h3>
+    <label for="birthdaytime">input dengan type datetime-local:</label>
+    <input type="datetime-local" id="birthdaytime" name="birthdaytime"><br>
+    <label for="bdaymonth">input dengan type month: </label> 
+    <input type="month" id="bdaymonth" name="bdaymonth"><br>
+    <label for="email">Enter your email:</label>
+    <input type="email" id="email" name="email"><br>
+    <p>label birthdaytime dengan jenis input datetime-local merupakan label yang nantinyaakan digunakan untuk menginput tanggal dan waktu
+        sesuai dengan lokasi dan negara kita
+    </p>
+    <p>Label bdaymonth merupakan identitas untuk tipe input month hanya berisi tentang bulan dan tahun secara default</p>
+    <p>label email merupakan identitas untuk tipe input email berfungsi untuk memasukkan email</p>
+
+    <hr>
+    <h3>Uji coba 6</h3>
+    <input type="image" src="html_form/gambar/icon.png" alt="Submit" width="48" height="48"><br>
+    <label for="myfile">Pilih file:</label>
+    <input type="file" id="myfile" name="myfile"><br>
+    <input type="hidden" id="custId" name="custId" value="3487"><br>
+    <p>label myfile merupakan identitas untuk tipe input file yang gunanya untuk memasukan file ke dalam web guna dikirimkan ke http server</p>
+    <p>type="hidden" menandakan bahwa elemen input ini adalah jenis yang tersembunyi, yang nilainya tidak akan ditampilkan pada web.
+    <p> id="custId" memberikan identifikasi untuk elemen input sehingga dapat diidentifikasi menggunakan CSS atau JavaScript.</p>
+    <p>name="custId" menentukan nama yang akan digunakan saat mengirimkan nilai ini bersama dengan data formulir.</p>    
+    <p>value="3487" adalah nilai yang akan dikirimkan bersama dengan data formulir saat formulir tersebut dikirimkan.</p>
+  
+  <h3> Uji Coba 7</h3>
+  <label for="quantity">quantity (between 1 and 5) : </label>
+  <input type="number" id="quantity" name="quantity" min="1" max="10"> <br>
+  <label for="vol">Volume (between 0 and 50)       :</label>
+  <input type="range" id="vol" name="vol" min="0" max="50"> <br>
+  <p> <!--- Tulis Kesimpulan Disini---></p>
+
+  <hr> 
+  <h3> Uji Coba 8</h3>
+  <label for="homapage"> Add Your Homepage : </label>
+  <input type="url" id="homapage" name="homapage"> <br>
+  <label for="gsearch">  Search Google     :</label>
+  <input type="search" id="gsearch" name="gsearch"><br>
+  <label for="ph"> Enter Your Phone Number :</label>
+  <input type="tel" id="ph" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+  <p> <!--- Tulis Kesimpulan Disini---></p>
+
+  <hr> 
+  <h3> Uji Coba 9</h3>
+  <label for="appt"> Select a time   : </label>
+  <input type="time" id="appt" name="appt" > <br>
+   <label for="week"> Select a Week   :</label>
+  <input type="week" id="week" name="week"> <br>
+  <p> <!--- Tulis Kesimpulan Disini---></p>
 </body>
-   </html>
+</html>
